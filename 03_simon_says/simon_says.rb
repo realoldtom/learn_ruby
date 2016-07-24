@@ -1,1 +1,11 @@
-#write your code here
+def echo(word)
+ return word
+ end
+ 
+ def shout(word)
+ return word.upcase
+ end
+ 
+ def repeat(*a)
+  a a
+ end
